@@ -275,7 +275,7 @@ class EdifyGenerator(object):
       self.Print("              by flashokillerify")
     self.Print("----------------------------------------------")
     self.Print(" Android version: %s"%(android_version))
-    self.Print(" PixelExtended version: %s"%(pex_version))
+    self.Print(" PixelAirOS version: %s"%(paos_version))
     self.Print(" Build id: %s"%(build_id))
     self.Print(" Build date: %s"%(build_date))
     self.Print(" Security patch: %s"%(security_patch))

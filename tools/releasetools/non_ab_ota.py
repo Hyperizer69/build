@@ -225,7 +225,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
 
-  is_plus = target_info.GetBuildProp("org.pixelexperience.version").endswith(
+  is_plus = target_info.GetBuildProp("org.pixelair.version").endswith(
         "_plus")
   android_version = target_info.GetBuildProp("ro.build.version.release")
   paos_version = target_info.GetBuildProp("org.pixelair.version")

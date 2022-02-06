@@ -228,7 +228,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   is_plus = target_info.GetBuildProp("org.pixelexperience.version").endswith(
         "_plus")
   android_version = target_info.GetBuildProp("ro.build.version.release")
-  paos_version = target_info.GetBuildProp("org.paos.version")
+  paos_version = target_info.GetBuildProp("org.pixelair.version")
   build_id = target_info.GetBuildProp("ro.build.id")
   build_date = target_info.GetBuildProp("org.pixelexperience.build_date")
   security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
